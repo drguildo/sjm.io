@@ -1,0 +1,51 @@
+baseurl = "https://www.sjm.io/"
+languageCode = "en-gb"
+title = "Simon Morgan"
+theme = "blackburn"
+author = "Simon Morgan"
+canonifyurls = true
+paginate = 5
+
+[params]
+  subtitle = "I Conjure the Spirits of the Computer with My Spells"
+  brand = "sjm.io"
+  googleAnalytics = "UA-66871655-2"
+  highlightjs = "atelier-savanna-dark"
+  dateFormat = "02 Jan 2006"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 1
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "About"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 2
+    identifier = "about"
+    url = "/about/"
+  [[menu.main]]
+    name = "Posts"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 3
+    identifier = "post"
+    url = "/post/"
+  [[menu.main]]
+    name = "Categories"
+    pre = "<i class='fa fa-folder fa-fw'></i>"
+    weight = 4
+    identifier = "category"
+    url = "/categories/"
+  [[menu.main]]
+    name = "Tags"
+    pre = "<i class='fa fa-tags fa-fw'></i>"
+    weight = 5
+    identifier = "tag"
+    url = "/tags/"
+
+[social]
+  twitter = "drguildo"
+  github = "drguildo"
+  stackoverflow = "122250"
