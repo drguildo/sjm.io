@@ -6,6 +6,10 @@ author = "Simon Morgan"
 canonifyurls = true
 paginate = 5
 
+[taxonomies]
+  topic = "categories"
+  tag = "tags"
+
 [params]
   subtitle = "I Conjure the Spirits of the Computer with My Spells"
   brand = "sjm.io"
