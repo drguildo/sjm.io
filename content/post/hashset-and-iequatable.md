@@ -1,5 +1,5 @@
 +++
-title = "Hashset, IEquatable and Contains"
+title = "HashSet, IEquatable and Contains"
 date = 2019-09-05T18:47:41+01:00
 categories = ["Programming"]
 tags = [".NET", "C#", "Data Structures", "Identity"]
