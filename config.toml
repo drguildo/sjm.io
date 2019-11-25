@@ -1,16 +1,12 @@
-baseurl = "https://www.sjm.io/"
-languageCode = "en-gb"
 title = "Simon Morgan"
-theme = "hyde"
+theme = "kiera"
+copyright = "Copyright &copy; Simon Morgan"
 
-[params]
-  description = "I Conjure the Spirits of the Computer with My Spells"
-  googleAnalytics = "UA-66871655-2"
+pygmentsCodeFences = true
 
-[Menus]
-  main = [
-    {Name = "About", URL = "/about/"},
-    {Name = "Posts", URL = "/post/"},
-    {Name = "Categories", URL = "/categories/"},
-    {Name = "Tags", URL = "/tags/"},
-  ]
+googleAnalytics = "UA-66871655-2"
+
+[author]
+    name = "Simon Morgan"
+    github = "drguildo"
+    twitter = "drguildo"
