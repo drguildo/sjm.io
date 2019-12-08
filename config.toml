@@ -1,12 +1,7 @@
 title = "Simon Morgan"
-theme = "kiera"
-copyright = "Copyright &copy; Simon Morgan"
-
-pygmentsCodeFences = true
+theme = "hyde"
 
 googleAnalytics = "UA-66871655-2"
 
-[author]
-    name = "Simon Morgan"
-    github = "drguildo"
-    twitter = "drguildo"
+[params]
+  description = "I get computers putin'"
