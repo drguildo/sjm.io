@@ -1,6 +1,7 @@
 title = "Simon Morgan"
 theme = "hyde"
 
+baseURL = "https://sjm.io/"
 googleAnalytics = "UA-66871655-2"
 
 [params]
