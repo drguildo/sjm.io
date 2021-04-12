@@ -28,7 +28,7 @@ there doesn't seem to be any official documentation on the topic doesn't
 help matters.
 
 If you find yourself having the same issue and don't want to do a
-package reinstall (which'll update the references and therefor the
+package reinstall (which'll update the references and therefore the
 .refresh files), you can either update the path in the .refresh file to
 point to the correct assembly version, or just delete the .refresh file
 as they aren't a requirement.
