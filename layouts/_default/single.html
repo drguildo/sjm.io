@@ -1,5 +1,4 @@
-{{ partial "head.html" . }}
-
+{{ define "main" -}}
 <h1>
   {{ $.Title }}
   <small>
@@ -12,5 +11,4 @@
     {{ .Content }}
   </article>
 </main>
-
-{{ partial "foot.html" }}
+{{- end }}
