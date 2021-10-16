@@ -1,7 +1,5 @@
 +++
 title = "Windows Services, Named Pipes and UnauthorizedAccessException"
-tags = ["C#", ".NET", "Named Pipes", "Windows Services", "Access Control Lists"]
-categories = ["Programming"]
 date = 2020-02-14
 +++
 

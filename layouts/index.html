@@ -1,0 +1,23 @@
+{{ partial "head.html" . }}
+
+<main class="index">
+  <section class="article-list">
+    <h1>{{ $.Title }}</h1>
+
+    {{ range (where (where .Site.RegularPages "Section" "blog") "Params.nohtml" "!=" "true") }}
+    <div class="article">
+      <span class="date">{{ .Date.Format "January 2, 2006" }}</span>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </div>
+    {{ end }}
+  </section>
+
+  <aside>
+    <dl class="external-links">
+      <dt>email</dt>
+      <dd>echo -n 'c2ptQHNqbS5pbwo=' | base64 --decode</dd>
+      <dt>github</dt>
+      <dd><a href="https://github.com/drguildo">github.com/drguildo</a></dd>
+    </dl>
+  </aside>
+</main>

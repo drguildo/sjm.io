@@ -1,16 +1,6 @@
 title = "Simon Morgan"
-theme = "hyde"
 
 baseURL = "https://sjm.io/"
 googleAnalytics = "UA-66871655-2"
 
-[params]
-  description = "I get computers putin'"
-  layoutReverse = true
-
-[menus]
-  main = [
-      {Name = "Github", URL = "https://github.com/drguildo"},
-      {Name = "Stack Overflow", URL = "https://stackoverflow.com/users/122250/simon-morgan"},
-      {Name = "Tumblr", URL = "https://drguildo.tumblr.com/"},
-  ]
+disableKinds = ["taxonomy", "term"]

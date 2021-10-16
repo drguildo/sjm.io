@@ -1,9 +1,7 @@
 +++
 title = "Windows Store Error Code 0x80070005"
-description = "A fix for Windows Store error code 0x80070005."
 date = "2019-07-13T11:44:50+01:00"
-tags = ["Windows Store", "Error"]
-categories = ["Software", "Windows"]
+description = "A fix for Windows Store error code 0x80070005."
 +++
 
 I recently starting an issue where none of the programs I've installed

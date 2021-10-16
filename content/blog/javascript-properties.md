@@ -2,8 +2,6 @@
 title = "JavaScript Properties for the Confused"
 description = "A tutorial on JavaScript object properties."
 date = 2017-05-08T16:35:03+01:00
-categories = ["Tutorials", "Programming"]
-tags = ["JavaScript", "Properties"]
 +++
 
 Like a lot of things related to JavaScript, the syntax and semantics of

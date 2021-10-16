@@ -1,8 +1,6 @@
 +++
 title = "The Forgotten Ideas in Computer Science Notes"
 date = "2018-03-20T14:14:36Z"
-tags = ["Notes", "Joe Armstrong"]
-categories = ["Programming", "Computer Science", "Talks"]
 description = "Notes from Joe Armstrong's Code BEAM keynote."
 +++
 

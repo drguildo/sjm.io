@@ -1,8 +1,6 @@
 +++
 title = "WHMCS Smarty {include} Not Working"
 date = 2017-09-11T16:54:49+01:00
-tags = ["WHMCS", "Smarty", "Template"]
-categories = ["Programming"]
 description = "Fix for WHMCS Smarty template {include} not working."
 +++
 

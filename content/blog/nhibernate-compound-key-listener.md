@@ -1,7 +1,5 @@
 +++
 title = "Compound primary keys and NHibernate event listeners"
-tags = ["NHibernate"]
-categories = ["Programming", "Databases"]
 date = 2019-11-07T19:44:41.140Z
 +++
 

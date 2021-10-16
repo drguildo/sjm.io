@@ -1,8 +1,5 @@
 +++
 title = "Verifying RSA signatures using .NET and C#"
-description = ""
-tags = ["C#", ".NET", "RSA", "Cryptographic Signing", "OpenSSL"]
-categories = ["Programming", "Cryptography"]
 date = "2020-02-29"
 +++
 

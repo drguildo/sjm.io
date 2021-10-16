@@ -1,7 +1,5 @@
 +++
 title = "ASP.NET Web Forms web site assembly definition errors"
-tags = ["ASP.NET", "Web Forms", "NuGet", "Assemblies"]
-categories = ["Programming"]
 date = 2020-11-13
 +++
 

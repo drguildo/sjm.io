@@ -1,10 +1,8 @@
 +++
 title = "Unity Notes"
 date = "2018-02-10T12:09:01Z"
-draft = true
-tags = ["Unity", "Game Development"]
-categories = ["Programming", "Game Development"]
 description = "A collection of notes I've made while learning about the Unity game engine."
+draft = true
 +++
 
 GameObject

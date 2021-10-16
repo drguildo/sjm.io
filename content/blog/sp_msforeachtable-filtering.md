@@ -1,9 +1,7 @@
 +++
 title = "sp_MSforeachtable Table Filtering"
-description = "How to filter the tables that sp_MSforeachtable acts upon."
-tags = ["T-SQL", "SQL Server"]
-categories = ["Programming", "Databases"]
 date = 2020-08-05
+description = "How to filter the tables that sp_MSforeachtable acts upon."
 +++
 
 SQL Server provides the handy `sp_MSforeachtable` stored procedure for executing

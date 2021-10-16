@@ -1,9 +1,7 @@
 +++
 title = "Amazon Fire HD 8 System Apps on Home Screen"
-description = "Fix for weird (possibly system) apps showing up on the Home screen."
 date = "2018-11-26T18:42:53Z"
-categories = ["Hardware"]
-tags = ["Android", "Fire HD 8", "Bugs"]
+description = "Fix for weird (possibly system) apps showing up on the Home screen."
 +++
 
 I recently got an Amazon Fire HD 8 tablet and for the most part it's been running fine. However, I encountered a weird and annoying issue where, all of a sudden, I had what seem to be system/hidden apps showing up on my Home screen.

@@ -1,7 +1,5 @@
 +++
 title = "WiFi Calling and the Billion 8800NL R2"
-tags = ["Moto G7 Power", "WiFi Calling", "Billion 8800NL R2"]
-categories = ["Phones"]
 date = 2020-05-03
 +++
 

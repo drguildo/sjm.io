@@ -1,9 +1,7 @@
 +++
 title = "WHMCS 500 Error"
-description = "Diagnosing WHMCS 500 errors."
 date = 2017-09-01T15:47:33+01:00
-categories = ["Software"]
-tags = ["WHMCS", "Apache", "XAMPP", "PHP"]
+description = "Diagnosing WHMCS 500 errors."
 +++
 
 While working on an addon module for [WHMCS](https://www.whmcs.com/) I

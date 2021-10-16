@@ -1,9 +1,7 @@
 +++
 title = "OAuth for the Confused"
-description = "A guide to OAuth 1.0a."
 date = 2017-08-28T12:13:41+01:00
-categories = ["Tutorials", "Programming"]
-tags = ["OAuth", "Authentication", "HTTP"]
+description = "A guide to OAuth 1.0a."
 +++
 
 While working on some code recently I ended up learning far more about

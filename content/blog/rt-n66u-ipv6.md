@@ -1,9 +1,7 @@
 +++
 title = "ASUS RT-N66U IPv6"
-description = "Getting IPv6 working with the ASUS RT-N66U and Aquiss."
 date = "2017-10-17T16:32:45+01:00"
-tags = ["ASUS", "RT-N66U", "IPv6", "Aquiss", "Entanet"]
-categories = ["Hardware", "Networking"]
+description = "Getting IPv6 working with the ASUS RT-N66U and Aquiss."
 +++
 
 I'm using an [ASUS RT-N66U](https://www.asus.com/uk/Networking/RTN66U/)

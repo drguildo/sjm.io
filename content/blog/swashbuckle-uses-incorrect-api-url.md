@@ -1,7 +1,5 @@
 +++
 title = "Swashbuckle generates incorrect Swagger API URL"
-tags = ["Swashbuckle", "Swagger"]
-categories = ["Programming"]
 date = 2020-01-16
 +++
 

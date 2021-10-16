@@ -1,8 +1,6 @@
 +++
 title = "HashSet, IEquatable and Contains"
 date = 2019-09-05T18:47:41+01:00
-categories = ["Programming"]
-tags = [".NET", "C#", "Data Structures", "Identity"]
 +++
 
 I recently came across some unintuitive and confusing (but understandable)

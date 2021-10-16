@@ -1,9 +1,7 @@
 +++
 title = "JavaScript Prototypes for the Confused"
-description = "A tutorial on JavaScript prototype-based inheritance."
 date = 2017-05-30T12:09:04+01:00
-categories = ["Tutorials", "Programming"]
-tags = ["JavaScript", "Prototype", "Inheritance"]
+description = "A tutorial on JavaScript prototype-based inheritance."
 +++
 
 Objects can have a prototype and a prototype is just another object. We
