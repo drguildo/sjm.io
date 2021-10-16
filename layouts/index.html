@@ -1,7 +1,7 @@
 {{ define "main" -}}
 <main class="index">
   <section class="article-list">
-    <h1>{{ $.Title }}</h1>
+    <h1>{{ .Title }}</h1>
 
     {{ range (where .Site.RegularPages "Section" "blog") }}
     <div class="article">
