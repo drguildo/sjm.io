@@ -56,19 +56,7 @@ h1 {
 article {
   margin: 0 auto;
   max-width: 720px;
-  line-height: 1.3;
   text-align: justify;
-
-  img, video, iframe {
-    // !important for asciinema frames
-    display: block !important;
-    margin: 0 auto !important;
-    max-width: 90%;
-
-    @media(max-width: 640px) {
-      max-width: calc(100% - 2rem);
-    }
-  }
 }
 
 footer {
