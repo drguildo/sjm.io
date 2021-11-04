@@ -5,5 +5,4 @@
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/index.xml">
   {{ $style := resources.Get "main.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
-  {{ if not .Site.IsServer }}{{ template "_internal/google_analytics_async.html" . }}{{ end }}
 </head>
