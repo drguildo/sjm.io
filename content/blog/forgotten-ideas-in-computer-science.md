@@ -68,7 +68,6 @@ mentions in his talk.
 
 {{< youtube oKg1hTOQXoY >}}
 
-
 {{< youtube KdnGPQaICjk >}}
 
 {{< youtube ldhHkVjLe7A >}}
