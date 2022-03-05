@@ -15,9 +15,9 @@ mentions in his talk.
 
 # The Tweets
 
-{{< tweet 951357931559284736 >}}
+{{< tweet joeerl 951357931559284736 >}}
 
-{{< tweet 951358820122578945 >}}
+{{< tweet joeerl 951358820122578945 >}}
 
 # Alan Kay Interview
 
