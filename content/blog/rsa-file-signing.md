@@ -3,13 +3,13 @@ title = "Verifying RSA signatures using .NET and C#"
 date = "2020-02-29"
 +++
 
-I recently found myself wanting a system to cryptographically sign and
-verify files. I came up with the following method which uses a
-combination of the OpenSSL command-line utility and the .NET
-RSA class. I used the version that's part of .NET Core 3.1.
+I recently found myself wanting a system to cryptographically sign and verify
+files. I came up with the following method which uses a combination of the
+OpenSSL command-line utility and the .NET RSA class. I used the version that's
+part of .NET Core 3.1.
 
-This post assumes some familiarity with encryption, specifically
-public/private key encryption.
+This post assumes some familiarity with encryption, specifically public/private
+key encryption.
 
 First we generate the public and private keys and sign the file:
 
@@ -22,11 +22,11 @@ openssl rsa -in privkey.pem -outform PEM -pubout -out pubkey.pem
 openssl dgst -sha256 -sign privkey.pem -out important.zip.sig important.zip
 ```
 
-The code for verifying the file signature should be fairly
-straightforward. By default OpenSSL stores the keys in PEM format. The
-.NET cryptography library doesn't seem to support loading these directly
-and so I had to write some supporting code for wrangling the PEM file
-into a format that the RSA class would like, specifically a byte array.
+The code for verifying the file signature should be fairly straightforward. By
+default OpenSSL stores the keys in PEM format. The .NET cryptography library
+doesn't seem to support loading these directly and so I had to write some
+supporting code for wrangling the PEM file into a format that the RSA class
+would like, specifically a byte array.
 
 ```cs
 internal class RsaSignatureVerifier : IDisposable

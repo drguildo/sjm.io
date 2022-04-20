@@ -6,8 +6,8 @@ date = 2019-09-05T18:47:41+01:00
 I recently came across some unintuitive and confusing (but understandable)
 behaviour when dealing with `HashSet<T> where T : IEquatable`. I'd written a
 class that implemented `IEquatable` based purely on the ID of the object. The
-trouble was that `HashSet.Contains` was saying that it didn't contain the object
-I was passing it even though it contained an object with the same ID.
+trouble was that `HashSet.Contains` was saying that it didn't contain the
+object I was passing it even though it contained an object with the same ID.
 
 Here's a trimmed-down example that exhibits the same behaviour:
 
@@ -35,11 +35,11 @@ Console.WriteLine(h.Contains(new Foo(1))); // false
 
 The reason the second `Console.WriteLine` outputs false is because of the _hash_
 part of HashSet. The `HashSet` implementation of `Contains` will first try to
-retrieve the object you give it using whatever `GetHashCode` returns when called
-on that object. If it doesn't find anything then `Contains` simply returns
-`false`. The `List` implementation actually makes use of `Equals` to discern
-whether or not the collection contains the relevant object (or rather one that
-`Equals` dictates is the same object).
+retrieve the object you give it using whatever `GetHashCode` returns when
+called on that object. If it doesn't find anything then `Contains` simply
+returns `false`. The `List` implementation actually makes use of `Equals` to
+discern whether or not the collection contains the relevant object (or rather
+one that `Equals` dictates is the same object).
 
 The trouble is that I've read in numerous places that you shouldn't override
 `GetHashCode` for non-value types (objects that will change their state over

@@ -8,8 +8,8 @@ SQL Server provides the handy `sp_MSforeachtable` stored procedure for executing
 the specified T-SQL for each table in a database. But what if you only want to
 run it for certain tables? I found myself in this boat but a bunch of the
 recommendations I came across didn't work. The `whereand` parameter was clearly
-what I wanted. However, say we wanted to filter out all tables whos names didn't
-start with "Foo":
+what I wanted. However, say we wanted to filter out all tables whos names
+didn't start with "Foo":
 
 ```sql
 EXEC sp_MSforeachtable @command1='print ''?''', @whereand='AND name LIKE ''Foo%'''

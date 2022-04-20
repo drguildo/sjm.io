@@ -4,16 +4,15 @@ date = "2019-06-09T18:28:57+01:00"
 description = "Getting IPv6 working with the ASUS RT-N66U running the unofficial Merlin firmware and Aquiss/Entanet."
 +++
 
-In a [previous post]({{< ref "/blog/rt-n66u-ipv6.md" >}}) I described
-how to get IPv6 working on the ASUS RT-N66U using the stock firmware.
-I've since switched to using the unofficial
-[Merlin](https://asuswrt.lostrealm.ca/) firmware.
+In a [previous post]({{<ref "/blog/rt-n66u-ipv6.md">}}) I described how to get
+IPv6 working on the ASUS RT-N66U using the stock firmware. I've since switched
+to using the unofficial[Merlin](https://asuswrt.lostrealm.ca/) firmware.
 
-While the settings in the previous article still apply, Merlin has more
-settings exposed and, at least in my case, failing to change the *Prefix
-Length* from the default *64* to *56* left IPv6 in a broken state. This
-led to various network issues such as avatars in the Twitter app taking
-forever to load, Steam being dog-slow on my Ubuntu 18.10 laptop etc.
+While the settings in the previous article still apply, Merlin has more settings
+exposed and, at least in my case, failing to change the *Prefix Length* from
+the default *64* to *56* left IPv6 in a broken state. This led to various
+network issues such as avatars in the Twitter app taking forever to load, Steam
+being dog-slow on my Ubuntu 18.10 laptop etc.
 
 Here are my current settings:
 

@@ -4,10 +4,9 @@ date = "2018-03-20T14:14:36Z"
 description = "Notes from Joe Armstrong's Code BEAM keynote."
 +++
 
-I recently watched Joe Armstrong's Code BEAM keynote talk about
-forgotten ideas in computer science and thought it would be useful to
-make some notes. They're mostly in the form of links to things that he
-mentions in his talk.
+I recently watched Joe Armstrong's Code BEAM keynote talk about forgotten ideas
+in computer science and thought it would be useful to make some notes. They're
+mostly in the form of links to things that he mentions in his talk.
 
 # The Talk
 

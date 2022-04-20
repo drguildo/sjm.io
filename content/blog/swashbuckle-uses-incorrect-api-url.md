@@ -4,9 +4,9 @@ date = 2020-01-16
 +++
 
 I recently encountered an issue while using
-[Swashbuckle](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
-whereby everything would work fine when running it locally but the
-deployed version would use incorrect API URLs.
+[Swashbuckle](https://github.com/domaindrivendev/Swashbuckle.AspNetCore) whereby
+everything would work fine when running it locally but the deployed version
+would use incorrect API URLs.
 
 `https://server.example.net/app/foo/bar?a=123`
 
@@ -14,12 +14,12 @@ would become
 
 `https://server.example.net/foo/bar?a=123`
 
-The issue seems to be caused by the fact that `server.example.net` is an
-API gateway. This seems to prevent Swashbuckle from correctly inferring
-the URL of the ASP.NET Core app and so it doesn't generate the
-[server](https://swagger.io/specification/#serverObject) part of the
-schema. This results in API requests (i.e. `/foo/bar?a=123`) getting
-sent to the root of the server.
+The issue seems to be caused by the fact that `server.example.net` is an API
+gateway. This seems to prevent Swashbuckle from correctly inferring the URL of
+the ASP.NET Core app and so it doesn't generate the
+[server](https://swagger.io/specification/#serverObject) part of the schema. This
+results in API requests (i.e. `/foo/bar?a=123`) getting sent to the root of the
+server.
 
 I fixed the issue by adding the following to my `Startup.cs`:
 
