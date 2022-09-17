@@ -6,7 +6,7 @@ description = "Getting IPv6 working with the ASUS RT-N66U running the unofficial
 
 In a [previous post]({{<ref "/blog/rt-n66u-ipv6.md">}}) I described how to get
 IPv6 working on the ASUS RT-N66U using the stock firmware. I've since switched
-to using the unofficial[Merlin](https://asuswrt.lostrealm.ca/) firmware.
+to using the unofficial [Merlin](https://asuswrt.lostrealm.ca/) firmware.
 
 While the settings in the previous article still apply, Merlin has more settings
 exposed and, at least in my case, failing to change the *Prefix Length* from
