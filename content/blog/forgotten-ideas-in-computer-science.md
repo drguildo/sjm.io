@@ -14,9 +14,9 @@ mostly in the form of links to things that he mentions in his talk.
 
 # The Tweets
 
-{{< tweet joeerl 951357931559284736 >}}
+{{< tweet user=joeerl id=951357931559284736 >}}
 
-{{< tweet joeerl 951358820122578945 >}}
+{{< tweet user=joeerl id=951358820122578945 >}}
 
 # Alan Kay Interview
 
