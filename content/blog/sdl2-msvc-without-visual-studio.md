@@ -8,9 +8,9 @@ figured a good way to do it would be via [SDL](https://www.libsdl.org/) and C.
 
 I already had Microsoft's C compiler available as I had a minimal (as much as
 anything to do with Microsoft or Visual Studio can be called minimal) Visual
-Studio Build Tools installation for [Rust]
-(https://www.rust-lang.org/) development, but I didn't want to have to install
-the bloated mess that is Visual Studio.
+Studio Build Tools installation for [Rust](https://www.rust-lang.org/)
+development, but I didn't want to have to install the bloated mess that is
+Visual Studio.
 
 I started by trying to build the small example program I found
 [here](http://www.myrkraverk.com/blog/2019/07/hello-world-with-sdl2/):

@@ -22,12 +22,12 @@ probably don't want to concern ourselves with.
 Before we get started we'll need a few things:
 
 - Consumer credentials
- - A consumer key
- - A consumer secret
+  - A consumer key
+  - A consumer secret
 - Endpoints
- - A request token URL
- - An authorisation URL
- - An access token URL
+  - A request token URL
+  - An authorisation URL
+  - An access token URL
 
 The aforementioned __consumer__ is whatever is acting on behalf of the user. For
 example a Twitter client posting on behalf of somebody would be the consumer.
@@ -43,7 +43,7 @@ The process is broken down into the following steps:
 2. Authorising the request token
 3. Exchanging the request token for an __access token__
 
-# Obtaining a Request Token
+## Obtaining a Request Token
 
 The consumer uses their consumer key to identify itself to the OAuth service
 using the __request token URL__, and obtains a request token. This step is
@@ -79,7 +79,7 @@ oauth_token_secret=9JWU7NMLS6U9VOX0RFVXDDB47GI7PD&
 oauth_callback_confirmed=true
 ```
 
-# Authorising the Request Token
+## Authorising the Request Token
 
 Once a request token has been obtained, the user is redirected to the
 __authorisation URL__, along with the request token that was obtained in the
@@ -101,7 +101,7 @@ consumer, or by simply displaying it and having the user manually enter it.
 https://oauth.example.com/Authorise?oauth_token=89HACWEFX4GABBAIUDKEB553IY8JGN
 ```
 
-# Exchanging the Request Token for an Access Token
+## Exchanging the Request Token for an Access Token
 
 Using the consumer key, the request token and the verification code obtained in
 the previous steps, the consumer can verify who it is, who it's acting on

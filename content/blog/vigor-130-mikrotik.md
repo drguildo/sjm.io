@@ -8,10 +8,10 @@ If you just want to get the damn thing working as a modem (referred to as
  the DrayTek documentation) with your router, but don't want to read about the
  ballache I had to go through
 
- - Select "Enable" on the "MPoA / Static or dynamic IP" page
- - Select "1483 Bridged IP VC-Mux" from the "Encapsulation" drop-down on the
+- Select "Enable" on the "MPoA / Static or dynamic IP" page
+- Select "1483 Bridged IP VC-Mux" from the "Encapsulation" drop-down on the
    same page
- - Click "OK" to save and restart the "modem"
+- Click "OK" to save and restart the "modem"
 
 If you want to hear me have a good moan about the device, read on.
 

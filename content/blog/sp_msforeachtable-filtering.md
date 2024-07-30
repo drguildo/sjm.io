@@ -17,7 +17,7 @@ EXEC sp_MSforeachtable @command1='print ''?''', @whereand='AND name LIKE ''Foo%'
 
 resulted in:
 
-```
+```text
 Msg 209, Level 16, State 1, Line 1
 Ambiguous column name 'name'.
 ```
@@ -30,7 +30,7 @@ EXEC sp_MSforeachtable @command1='print ''?''', @whereand='AND ? LIKE ''Foo%'''
 
 resulted in:
 
-```
+```text
 Msg 102, Level 15, State 1, Line 1
 Incorrect syntax near '?'.
 ```

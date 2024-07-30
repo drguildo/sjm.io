@@ -13,7 +13,7 @@ key encryption.
 
 First we generate the public and private keys and sign the file:
 
-```
+```text
 # Generate the private key.
 openssl genpkey -algorithm rsa -out privkey.pem -pkeyopt rsa_keygen_bits:4096
 # Generate the corresponding public key

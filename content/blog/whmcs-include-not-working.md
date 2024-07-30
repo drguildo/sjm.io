@@ -13,7 +13,7 @@ relative paths.
 
 If your template is in a file called `some_template.tpl`, you need to use:
 
-```
+```php
 {include './some_template.tpl'}
 ```
 

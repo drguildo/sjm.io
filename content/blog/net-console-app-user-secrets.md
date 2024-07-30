@@ -13,8 +13,7 @@ Here's how I got it working with the minimum of fuss.
 
 Create a user secrets store and add your secrets to it:
 
-
-```
+```text
 dotnet user-secrets init
 dotnet user-secrets set ConnectionStrings:Foo ...
 dotnet user-secrets set SomeApiKey ...

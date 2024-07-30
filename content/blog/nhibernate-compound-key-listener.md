@@ -6,10 +6,9 @@ date = 2019-11-07T19:44:41.140Z
 Recently I had to write some code to log CUD operations done via NHibernate. The
 requirement was to log the following:
 
- - The type of operation (insert, update, delete)
- - The primary key property name(s) and value(s) of the entity being operated
-   on
- - For updates, the property name(s) and the old and new values
+- The type of operation (insert, update, delete)
+- The primary key property name(s) and value(s) of the entity being operated on
+- For updates, the property name(s) and the old and new values
 
 It was pretty straightforward apart from retrieving the primary key. If the key
 is a [scalar](http://foldoc.org/scalar) then it's pretty straightforward:
