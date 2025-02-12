@@ -1,6 +1,5 @@
 title = "Simon Morgan"
 
-baseURL = "https://sjm.io/"
 googleAnalytics = "UA-66871655-2"
 
 disableKinds = ["taxonomy", "term"]
