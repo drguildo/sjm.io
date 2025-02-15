@@ -3,7 +3,7 @@ title = "ELEGOO Uno R3 Notes"
 date = 2025-02-09T18:25:29Z
 +++
 
-I've been farting around with an ELEGOO [Uno R3](https://en.wikipedia.org/wiki/Arduino_Uno#Uno_R1_to_R3)
+I've been farting around with an ELEGOO [Uno R3](https://docs.arduino.cc/hardware/uno-rev3/)
 (that came as part of their [Basic Starter Kit](https://www.elegoo.com/en-gb/blogs/arduino-projects/elegoo-uno-project-basic-starter-kit-tutorial)),
 today. I think it's a pretty old-hat device at this point, but I thought I'd
 put some notes here, mainly for my future self, but also in case anybody else
