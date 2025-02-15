@@ -1,9 +1,9 @@
 +++
-title = "ELEGOO Uno R3 Notes"
+title = "ELEGOO UNO R3 Notes"
 date = 2025-02-09T18:25:29Z
 +++
 
-I've been farting around with an ELEGOO [Uno R3](https://docs.arduino.cc/hardware/uno-rev3/)
+I've been farting around with an ELEGOO [UNO R3](https://docs.arduino.cc/hardware/uno-rev3/)
 (that came as part of their [Basic Starter Kit](https://www.elegoo.com/en-gb/blogs/arduino-projects/elegoo-uno-project-basic-starter-kit-tutorial)),
 today. I think it's a pretty old-hat device at this point, but I thought I'd
 put some notes here, mainly for my future self, but also in case anybody else
@@ -14,18 +14,18 @@ might find them useful.
 The tutorials and documentation distributed by ELEGOO is quite old at this
 point, and not very well written or presented. Fortunately, there isn't much
 need to use it, as the device seems to be exactly the same as the
-[Adafruit Uno R3](https://www.adafruit.com/product/4806), so all of their
-[Uno R3 documentation](https://learn.adafruit.com/lesson-0-getting-started)
+[Adafruit UNO R3](https://www.adafruit.com/product/4806), so all of their
+[UNO R3 documentation](https://learn.adafruit.com/lesson-0-getting-started)
 should apply. No need to run any of their software either; just download the
 latest version of [Arduino IDE](https://www.arduino.cc/en/software) and it
 should work out-of-the-box. If you're using Windows, it's probably best to
-install Arduino IDE before connecting the Uno to your PC because Arduino IDE
+install Arduino IDE before connecting the UNO to your PC because Arduino IDE
 installs a bunch of drivers that you'll need for it to work.
 
 ## 2.8" TFT Touch Shield for Arduino
 
 I also have an [ELEGOO 2.8 Inch Touch Screen for Arduino UNO](https://www.elegoo.com/en-gb/blogs/arduino-projects/elegoo-2-8-inch-touch-screen-for-raspberry-pi-manual).
-Similar to the Uno R3 itself, this seems to be more-or-less the same as the
+Similar to the UNO R3 itself, this seems to be more-or-less the same as the
 [Adafruit 2.8" TFT Touch Shield for Arduino](https://www.adafruit.com/product/376).
 Again, you can ignore the ropey ELEGOO documentation and software and just use
 [the Adafruit stuff](https://learn.adafruit.com/2-8-tft-touch-shield).
