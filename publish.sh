@@ -1,2 +1,4 @@
 hugo --cleanDestinationDir --gc
-rsync -avz --delete public sjm.io:~/www/sjm.io
+pushd public
+rsync -avz --delete . sjm.io:~/www/sjm.io
+popd
