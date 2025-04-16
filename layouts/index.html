@@ -21,13 +21,13 @@
     </ol>
 
     <dl class="external-links">
-      <dt>email</dt>
-      <dd><code>echo -n 'c2ptQHNqbS5pbwo=' | base64 --decode</code></dd>
-      <dt>github</dt>
-      <dd><a href="https://github.com/drguildo">github.com/drguildo</a></dd>
-      <dt>mastodon</dt>
-      <dd><a rel="me" href="https://mstdn.io/@sjm">@sjm@mstdn.io</a></dd>
+      {{ range $key, $value := .Site.Params.links }}
+      <dt>{{ $key }}</dt>
+      <dd>{{ $value | safeHTML }}</dd>
+      {{ end }}
     </dl>
+
+
   </aside>
 </main>
 {{- end }}

@@ -3,3 +3,10 @@ title = "Simon Morgan"
 googleAnalytics = "UA-66871655-2"
 
 disableKinds = ["taxonomy", "term"]
+
+[params.links]
+"email" = "<code>echo -n 'c2ptQHNqbS5pbwo=' | base64 --decode</code>"
+"github" = '<a href="https://github.com/drguildo">drguildo</a>'
+"listenbrainz" = '<a href="https://listenbrainz.org/user/drguildo">drguildo</a>'
+"mastodon" = '<a rel="me" href="https://mstdn.io/@sjm">@sjm@mstdn.io</a>'
+"matrix" = "@sjm:envs.net"
