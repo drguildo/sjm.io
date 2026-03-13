@@ -7,4 +7,4 @@ disableKinds = ["taxonomy", "term"]
 "github" = '<a href="https://github.com/drguildo">drguildo</a>'
 "listenbrainz" = '<a href="https://listenbrainz.org/user/drguildo">drguildo</a>'
 "mastodon" = '<a rel="me" href="https://mstdn.io/@sjm">@sjm@mstdn.io</a>'
-"matrix" = "@sjm:envs.net"
+"matrix" = "@drguildo:matrix.org"
