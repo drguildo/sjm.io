@@ -1,7 +1,5 @@
 title = "Simon Morgan"
 
-googleAnalytics = "UA-66871655-2"
-
 disableKinds = ["taxonomy", "term"]
 
 [params.links]
