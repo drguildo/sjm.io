@@ -1,102 +1,102 @@
 body {
-  max-width: 920px;
-  margin: 0 auto;
-  padding: 1rem;
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 1rem;
 }
 
 h1 {
-  margin-top: 0;
+    margin-top: 0;
 
-  small {
-    display: block;
-    font-size: 1rem;
-  }
+    small {
+        display: block;
+        font-size: 1rem;
+    }
 }
 
 .index {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 
-  .article-list {
-    flex-grow: 1;
+    .article-list {
+        flex-grow: 1;
 
-    .article {
-      margin-bottom: 1rem;
+        .article {
+            margin-bottom: 1rem;
+        }
+
+        .date {
+            display: block;
+            color: #333;
+        }
     }
 
-    .date {
-      display: block;
-      color: #333;
-    }
-  }
-
-  aside {
-    width: 40%;
-
-    dt {
-      font-size: 0.9rem;
-    }
-
-    dd {
-      margin-left: 0;
-
-      &:not(:last-child) {
-        margin-bottom: 0.5rem;
-      }
-    }
-  }
-
-  @media(max-width: 640px) {
     aside {
-      display: none;
+        width: 40%;
+
+        dt {
+            font-size: 0.9rem;
+        }
+
+        dd {
+            margin-left: 0;
+
+            &:not(:last-child) {
+                margin-bottom: 0.5rem;
+            }
+        }
     }
-  }
+
+    @media (max-width: 640px) {
+        aside {
+            display: none;
+        }
+    }
 }
 
 article {
-  margin: 0 auto;
-  max-width: 720px;
-  text-align: justify;
+    margin: 0 auto;
+    max-width: 720px;
+    text-align: justify;
 }
 
 footer {
-  margin-top: 2rem;
-  text-align: center;
-  font-size: 0.8rem;
-  color: #333;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #333;
 }
 
 .text-center {
-  text-align: center;
+    text-align: center;
 }
 
 dl {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  grid-gap: 0.2rem 1rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 0.2rem 1rem;
 
-  dt {
-    font-weight: bold;
-    grid-column-start: 1;
-  }
+    dt {
+        font-weight: bold;
+        grid-column-start: 1;
+    }
 
-  dd {
-    grid-column-start: 2;
-    margin: 0;
-  }
+    dd {
+        grid-column-start: 2;
+        margin: 0;
+    }
 }
 
 pre {
-  overflow-x: auto;
-  padding: 1em;
-  border-radius: 6px;
+    overflow-x: auto;
+    padding: 1em;
+    border-radius: 6px;
 }
 
 img {
-  display: block;
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  max-height: 90%;
-  margin: 20px auto;
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 90%;
+    margin: 20px auto;
 }
