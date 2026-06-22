@@ -42,9 +42,7 @@ easy enough to adapt this to any other ISP that uses a PPPoE connection.
 
 ```
 /interface pppoe-client
-add add-default-route=yes comment="Andrews & Arnold Ltd" disabled=no \
-    interface=ether1 name=aaisp password=[YOUR PASSWORD] use-peer-dns=yes user=\
-    [YOUR USERNAME]
+add add-default-route=yes comment="Andrews & Arnold Ltd" disabled=no interface=ether1 name=aaisp password=[YOUR PASSWORD] use-peer-dns=yes user=[YOUR USERNAME]
 /interface list member
 add interface=aaisp list=WAN
 /ip upnp
@@ -55,8 +53,7 @@ add interface=aaisp type=external
 /ipv6 address
 add from-pool=pool-ipv6-aaisp interface=bridge
 /ipv6 dhcp-client
-add add-default-route=yes interface=aaisp pool-name=pool-ipv6-aaisp request=\
-    address,prefix
+add add-default-route=yes interface=aaisp pool-name=pool-ipv6-aaisp pool-prefix-length=64 request=address,prefix
 /system ntp client
 set enabled=yes
 /system ntp client servers
