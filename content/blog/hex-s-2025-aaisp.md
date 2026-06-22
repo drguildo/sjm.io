@@ -45,11 +45,6 @@ easy enough to adapt this to any other ISP that uses a PPPoE connection.
 add add-default-route=yes comment="Andrews & Arnold Ltd" disabled=no interface=ether1 name=aaisp password=[YOUR PASSWORD] use-peer-dns=yes user=[YOUR USERNAME]
 /interface list member
 add interface=aaisp list=WAN
-/ip upnp
-set enabled=yes
-/ip upnp interfaces
-add interface=bridge type=internal
-add interface=aaisp type=external
 /ipv6 address
 add from-pool=pool-ipv6-aaisp interface=bridge
 /ipv6 dhcp-client
