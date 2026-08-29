@@ -1,13 +1,12 @@
 <!doctype html>
 <html lang="en">
-  {{ partial "head.html" . }}
+{{ partial "head.html" . }}
 
-  <body>
-    {{ block "main" . }}
-    {{ end }}
+<body>
+  {{ block "main" . }}
+  {{ end }}
 
-    {{ partial "footer.html" . }}
+  {{ partial "footer.html" . }}
+</body>
 
-    <script src="/banner.js"></script>
-  </body>
 </html>
